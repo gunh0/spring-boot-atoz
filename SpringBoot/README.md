@@ -39,3 +39,35 @@ https://spring.io/projects/spring-boot
 
 - Spring Initializr : https://start.spring.io/
 
+
+
+### gradle
+
+- **https://gradle.org//install**
+
+- gradlew : 리눅스 및 맥OS용 Shell Script
+
+  ```shell
+  $ chmod 755 gradlew
+  ```
+
+- gradle.bat : 윈도우용 batch Script
+
+- gradle/wrapper/gradle-wrapper.jar : Wrapper JAR
+
+- gradle/wrapper/gradle-wrapper.properties : 그레이들 설정 정보 프로퍼티 파일(버전 정보 등)
+
+version example :
+
+```shell
+$ ./gradlew wrapper --gradle-version 4.8.1
+$ ./gradlew -v
+```
+
+
+
+gradle 멀티 프로젝트를 활용하면 여러 프로젝트를 마치 하나의 프로젝트처럼 사용할 수 있다.
+
+일반적으로 이 기능은 공통 코드를 하나의 프로젝트로 분리하고 이를 재사용할 때 유용하다.
+
+멀티 프로젝트를 구성하면 코드 재사용성이 높아지고 한 서비스에 관련된 여러 프로젝트를 마치 하나의 통합 프로젝트처럼 관리할 수 있다.
