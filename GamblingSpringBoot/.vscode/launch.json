@@ -10,5 +10,12 @@
             "projectName": "demo",
             "args": ""
         }
-    ]
+    ],
+    "java.configuration.runtimes": [
+         {
+          "name": "JavaSE-13",
+          "path": "C:/Java/jdk-13.0.2",
+          "default": true
+         }
+      ]
 }
