@@ -8,7 +8,7 @@
 
 ##### **대한민국 공공기관의 웹 서비스 개발 시 사용을 권장하고 있는 전자정부 표준프레임워크의 기반 기술로서 쓰이고 있다.**
 
-
+<br/>
 
 # Spring Boot
 
@@ -27,11 +27,11 @@ https://spring.io/projects/spring-boot
 
 스프링 부트는 스프링 프레임워크라는 큰 틀에 속하는 도구로 "just run"에 가까워지도록 많은 설정을 간소화하기 위해 노력한 도구이다.
 
-
+<br/>
 
 ### https://github.com/spring-projects/spring-boot/wiki
 
-
+<br/>
 
 ### 장점
 
@@ -45,8 +45,26 @@ https://spring.io/projects/spring-boot
 - 설정을 개인화(커스터마이징)하면 버전을 올릴 때 기존 스프링 프레임워크를 사용하는 것과 동일한 불편함을 겪을 수 있다.
 - 특정 설정을 개인화 혹은 설정 자체를 변경하고 싶다면 내부의 설정 코드를 살펴봐야 하는 불편함이 있을 수 있다.
 
-
+<br/>
 
 ### Make Project
 
 - Spring Initializr : https://start.spring.io/
+
+<br/>
+
+----
+
+### VSCode Start Project
+
+>- View > Command Pallatte (Ctrl + Shift + P)
+>- Spring Initializr: Generate a Gradle Project
+>- Java
+>- Spring Web, Spring Boot DevTools
+
+<br/>
+
+```
+> mvn clean
+> mvn install
+```
