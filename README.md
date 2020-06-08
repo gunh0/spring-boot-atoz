@@ -61,10 +61,8 @@ https://spring.io/projects/spring-boot
 >- Spring Initializr: Generate a Gradle Project
 >- Java
 >- Spring Web, Spring Boot DevTools
+>- https://marketplace.visualstudio.com/items?itemName=richardwillis.vscode-gradle
+>  - OUTPUT > Gradle Tasks
 
 <br/>
 
-```
-> mvn clean
-> mvn install
-```
