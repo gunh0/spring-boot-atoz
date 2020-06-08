@@ -68,7 +68,7 @@ https://spring.io/projects/spring-boot
 
 ------------
 
-### demo
+### spring-demo
 
 - https://start.spring.io/
 
@@ -87,6 +87,16 @@ https://spring.io/projects/spring-boot
   System Settings 의 여러 설정 항목중에 Startup/Shutdown 메뉴에서 **Reopen last project on startup** **체크 해제** 하시면 됩니다.
 
 - Import Project 메뉴를 클릭하면 IntelliJ 의 탐색기가 나타나는데, 임포트하고 싶은 프로젝트의 디렉토리를 찾아서 **build.gradle** 파일을 선택한다.
+
 - **Spring Boot** automatically configures embedded **Tomcat**.
+
 - Run `SpringDemoApplication` 
+
+<br/>
+
+<br/>
+
+--------
+
+
 
