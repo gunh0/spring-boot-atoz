@@ -29,7 +29,7 @@ https://spring.io/projects/spring-boot
 
 <br/>
 
-### https://github.com/spring-projects/spring-boot/wiki
+##### Reference: https://github.com/spring-projects/spring-boot/wiki
 
 <br/>
 
@@ -39,6 +39,8 @@ https://spring.io/projects/spring-boot
 - 특정 라이브러리에 버그가 있다 하더라도 스프링팀에서 버그픽스한 버전을 받기 편리하다.
 - 간단한 어노테이션 설정이나 프로퍼티 설정으로 세부적인 설정 없이 원하는 기능을 빠르게 적용할 수 있다.
 - 별도의 외장 톰캣을 설치할 필요가 없으며 위와 동일한 이유로 톰캣 버전도 더욱 편리하게 관리한다.
+
+<br/>
 
 ### 단점
 
@@ -51,11 +53,7 @@ https://spring.io/projects/spring-boot
 
 - Spring Initializr : https://start.spring.io/
 
-<br/>
-
-----
-
-### VSCode Start Project
+### <br/>VSCode Start Project
 
 >- View > Command Pallatte (Ctrl + Shift + P)
 >- Spring Initializr: Generate a Gradle Project
@@ -65,4 +63,30 @@ https://spring.io/projects/spring-boot
 >  - OUTPUT > Gradle Tasks
 
 <br/>
+
+<br/>
+
+------------
+
+### demo
+
+- https://start.spring.io/
+
+- Gradle Project
+
+- Dependencies
+  - Spring Web
+  - Thymeleaf
+
+<br/>
+
+##### Run in IntelliJ (Setting)
+
+- Appearance & Behaviour -> System Settings 메뉴
+
+  System Settings 의 여러 설정 항목중에 Startup/Shutdown 메뉴에서 **Reopen last project on startup** **체크 해제** 하시면 됩니다.
+
+- Import Project 메뉴를 클릭하면 IntelliJ 의 탐색기가 나타나는데, 임포트하고 싶은 프로젝트의 디렉토리를 찾아서 **build.gradle** 파일을 선택한다.
+- **Spring Boot** automatically configures embedded **Tomcat**.
+- Run `SpringDemoApplication` 
 
