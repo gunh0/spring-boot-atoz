@@ -84,15 +84,25 @@ https://spring.io/projects/spring-boot
 
 - Appearance & Behaviour -> System Settings 메뉴
 
-  System Settings 의 여러 설정 항목중에 Startup/Shutdown 메뉴에서 **Reopen last project on startup** **체크 해제** 하시면 됩니다.
+  System Settings 의 여러 설정 항목중에 Startup/Shutdown 메뉴에서 **Reopen last project on startup** **체크 해제**
 
-- Import Project 메뉴를 클릭하면 IntelliJ 의 탐색기가 나타나는데, 임포트하고 싶은 프로젝트의 디렉토리를 찾아서 **build.gradle** 파일을 선택한다.
+- Import Project 메뉴를 클릭하면 IntelliJ 의 탐색기가 나타나는데, 임포트하고 싶은 프로젝트의 디렉토리를 찾아서 **build.gradle** 파일을 선택
 
-- **Spring Boot** automatically configures embedded **Tomcat**.
+- **Spring Boot** automatically configures embedded **Tomcat**
 
 - Run `SpringDemoApplication` 
 
 <br/>
+
+##### index.html
+
+Spring Boot supports both static and templated welcome pages.
+
+It first looks for an `index.html` file in the configured static content locations.
+
+If one is not found, it then looks for an `index` template.
+
+If either is found, it is automatically used as the welcome page of the application.
 
 <br/>
 
