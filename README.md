@@ -53,7 +53,9 @@ https://spring.io/projects/spring-boot
 
 - Spring Initializr : https://start.spring.io/
 
-### <br/>VSCode Start Project
+<br/>
+
+### VSCode Start Project
 
 >- View > Command Pallatte (Ctrl + Shift + P)
 >- Spring Initializr: Generate a Gradle Project
@@ -61,6 +63,18 @@ https://spring.io/projects/spring-boot
 >- Spring Web, Spring Boot DevTools
 >- https://marketplace.visualstudio.com/items?itemName=richardwillis.vscode-gradle
 >  - OUTPUT > Gradle Tasks
+
+<br/>
+
+### Build Project
+
+```powershell
+./grdlew build
+cd build/libs
+java -jar xxx.jar
+
+./gradlew clean build
+```
 
 <br/>
 
@@ -103,6 +117,8 @@ It first looks for an `index.html` file in the configured static content locatio
 If one is not found, it then looks for an `index` template.
 
 If either is found, it is automatically used as the welcome page of the application.
+
+<br/>
 
 <br/>
 
